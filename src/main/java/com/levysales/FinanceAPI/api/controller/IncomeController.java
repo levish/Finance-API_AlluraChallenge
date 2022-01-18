@@ -54,10 +54,10 @@ public class IncomeController {
     public IncomeOutput toUpdate(@PathVariable Long incomeId, @RequestBody @Valid IncomeInput incomeInput) {
         try {
             Income income = incomeService.findOrFail(incomeId);
-            incomeFromDTOConverter.copyToDomain(incomeInput,income);
+            incomeFromDTOConverter.copyToDomain(incomeInput, income);
 
             return incomeToDTOConverter.toDTO(income);
-        } catch (ReleaseNotFoundException e){
+        } catch (ReleaseNotFoundException e) {
             throw new ReleaseNotFoundException(e.getMessage());
         }
     }
@@ -67,8 +67,6 @@ public class IncomeController {
     public void toDelete(@PathVariable Long incomeId) {
         incomeService.toDelete(incomeId);
     }
-
-
 
 
 }

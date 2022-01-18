@@ -26,8 +26,8 @@ public class IncomeFromDTOConverter {
                 .collect(Collectors.toList());
     }
 
-    public void copyToDomain(IncomeInput incomeInput, Income income){
-        modelMapper.map(incomeInput,income);
+    public void copyToDomain(IncomeInput incomeInput, Income income) {
+        modelMapper.map(incomeInput, income);
     }
 
 }
