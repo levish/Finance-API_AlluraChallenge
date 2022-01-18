@@ -1,7 +1,6 @@
-package com.levysales.domain.repository;
+package com.levysales.FinanceAPI.domain.repository;
 
-import com.levysales.domain.model.Income;
-import com.levysales.domain.model.Outgoing;
+import com.levysales.FinanceAPI.domain.model.Outgoing;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

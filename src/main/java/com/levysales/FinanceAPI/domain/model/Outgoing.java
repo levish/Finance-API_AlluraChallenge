@@ -1,4 +1,4 @@
-package com.levysales.domain.model;
+package com.levysales.FinanceAPI.domain.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,8 +13,7 @@ import java.time.LocalDateTime;
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-
-public class Income {
+public class Outgoing {
 
     @Id
     @EqualsAndHashCode.Include

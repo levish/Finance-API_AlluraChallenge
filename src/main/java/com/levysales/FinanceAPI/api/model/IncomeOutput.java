@@ -1,4 +1,4 @@
-package com.levysales.api.model;
+package com.levysales.FinanceAPI.api.model;
 
 
 import lombok.Getter;

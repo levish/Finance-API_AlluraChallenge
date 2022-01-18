@@ -1,4 +1,4 @@
-package com.levysales.domain.exceptions;
+package com.levysales.FinanceAPI.domain.exceptions;
 
 public class ReleaseNotFoundException extends RuntimeException{
 

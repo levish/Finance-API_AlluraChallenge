@@ -1,8 +1,8 @@
-package com.levysales.domain.service;
+package com.levysales.FinanceAPI.domain.service;
 
-import com.levysales.domain.exceptions.ReleaseNotFoundException;
-import com.levysales.domain.model.Income;
-import com.levysales.domain.repository.IncomeRepository;
+import com.levysales.FinanceAPI.domain.exceptions.ReleaseNotFoundException;
+import com.levysales.FinanceAPI.domain.model.Income;
+import com.levysales.FinanceAPI.domain.repository.IncomeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
